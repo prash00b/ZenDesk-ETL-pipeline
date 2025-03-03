@@ -1,0 +1,35 @@
+# Ignore config files
+config/config.py
+
+# Ignore environment file
+extract/Extraction/.env
+
+# Ignore logs and data files in the extract folder
+extract/Logs/
+extract/assignee_ids.csv
+extract/assignee_idssecond.csv
+extract/comments_*.json
+extract/createmappingfile.py
+extract/ma_json_files.py
+extract/map_timememtric.py
+extract/organizations.csv
+extract/requester_ids.csv
+extract/submitter_ids.csv
+extract/test_tickets_batch_*.json
+extract/ticket_file_mapping.csv
+extract/ticket_mapping.csv
+extract/tickets_processed.json
+extract/tickets_raw.json
+extract/time_metric_*.json
+
+# Ignore specific directories and files
+IngestionLogs2/
+modules/assets_extraction.py
+modules/data_processing.py
+RE-IngestionLogs2/
+Transformation4/
+
+# Ignore CSV and log files
+comments_extracted.csv
+time_metrics_extracted.csv
+time_metrics_extraction_logs.txt
